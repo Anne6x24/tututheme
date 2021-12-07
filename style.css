@@ -3,3 +3,24 @@ Theme Name: tututheme
 Template: hamilton
 Version: 1.0.0
 */
+
+.section-inner {
+	margin: 0 auto;
+	max-width: none;
+	width: 100%;
+}
+
+.section-inner.medium { max-width: none; }
+.section-inner.thin { max-width: none; }
+
+.section-inner .section-inner {
+	width: 100%;
+}
+
+#site-content {
+    max-width: 100%;
+}
+
+.section-inner.thin {
+    max-width: none !important;
+}
